@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://your-backend.onrender.com";
+const BASE_URL = "https://task-tracker-pe6x.onrender.com";
 
 export const getTasks = async () => {
     const res = await axios.get(BASE_URL + "/tasks");
